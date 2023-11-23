@@ -8,9 +8,8 @@
   height: 50px;
   background-color: var(--primary-color);
   padding-left: 20px;
-  font-size: 1.2rem;
+  font-size: 1.2rem;    
 }
-
 .records td{
   height: 50px;
   padding-left: 20px;
@@ -24,22 +23,23 @@
 }
 
 .records tr:hover{
-  background-color: var(--secondary-color);
+  background-color: var(--secundary-color);
 }
 
-@media(max-width: 480px){
+@media(max-width:480px){
   .records{
-    border-spacing: 5px;
+      border-spacing: 5px;
   }
   .records thead{
-    display: none;
+      display:none;
   }
   .records tr{
-    box-shadow: 0 1px 3px var(--shadow-color);
+      box-shadow: 0 1px 3px var(--shadow-color);
   }
   .records td:not(:first-child){
-    display: flex;
-    justify-content: space-between;
+      display:flex;
+      justify-content: space-between;
+      padding: 0 20px;
   }
 
   .records td{
